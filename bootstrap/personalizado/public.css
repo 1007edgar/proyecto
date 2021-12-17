@@ -1,0 +1,210 @@
+/* -----------------------ESTILOS DE VISTAS MAUVA1----------------------------------------------------*/
+body, html {
+  height: 100%;
+   background-image: url("../../imagenes/public/fondo.png");
+}
+
+
+header{
+ padding-top:0px;
+ padding-left: 0px;
+ margin-bottom: 0px;  
+}
+
+.paco{
+  padding-right: 0px;
+  padding-left: 0px;
+
+  
+}
+.navbar-brand img{
+  margin: -19px;
+}
+
+
+
+
+#home-form {
+  width: 100%;
+  margin-bottom: 5em;
+  margin-top: 3%;
+}
+#home-form .wrapper {
+  width: 70%;
+  height: 58px;
+  margin: 0 auto;
+  margin-top: -28px;
+}
+#home-form .wrapper #find-available-rooms-form {
+  width: 100%;
+  display: grid;
+  background: white;
+  border-radius: 2em;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  grid-template-columns: 1fr 1fr 1fr 0.8fr;
+}
+#home-form .wrapper #find-available-rooms-form .form-group {
+  margin-bottom: 0;
+  padding: 10px;
+  padding-left: 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#home-form .wrapper #find-available-rooms-form .form-group label {
+  display: block;
+  font-weight: 600;
+  padding: 0;
+  padding-left: 1em;
+  margin: 0;
+}
+#home-form .wrapper #find-available-rooms-form .form-group:nth-child(-n + 3) * {
+  cursor: pointer;
+}
+#home-form
+.wrapper
+#find-available-rooms-form
+.form-group:nth-child(-n + 3):hover {
+  background: rgba(202, 202, 202, 0.5);
+  border-radius: 2em;
+}
+#home-form
+.wrapper
+#find-available-rooms-form
+.form-group:nth-child(-n + 3)
+.form-group-nested:hover {
+  background: transparent;
+  cursor: default;
+}
+#home-form
+.wrapper
+#find-available-rooms-form
+.form-group:nth-child(-n + 3)
+button.btn {
+  display: block;
+  width: 80%;
+  color: #495057;
+  text-align: start;
+  border: none;
+  padding: 0;
+  padding-left: 1em;
+}
+#home-form
+.wrapper
+#find-available-rooms-form
+.form-group:nth-child(-n + 3)
+button:focus {
+  box-shadow: none;
+}
+#home-form
+.wrapper
+#find-available-rooms-form
+.form-group:nth-child(-n + 3)
+button.btn::after {
+  display: none;
+}
+#home-form
+.wrapper
+#find-available-rooms-form
+.form-group:nth-child(-n + 3)
+.dropdown-menu {
+  margin-top: 1em;
+}
+#home-form .wrapper #find-available-rooms-form .form-group:last-child {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#home-form
+.wrapper
+#find-available-rooms-form
+.form-group:last-child
+button.btn[type="submit"] {
+  width: 95%;
+  height: 95%;
+  border: none;
+  border-radius: 2em;
+  background: linear-gradient(45deg, #be0854, red);
+}
+
+.custom-room-cards .card .card-body img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+#ui-datepicker-div {
+  padding: 2em !important;
+  border-radius: 2em !important;
+  margin-top: 2em !important;
+}
+.ui-datepicker-month {
+  font-size: small !important;
+}
+.paco1 li  {
+ list-style:none;
+ margin-top:20px;
+ margin-bottom: 20px;
+}
+
+.paco1 li i{
+  margin-right: 80px;
+
+
+}
+.iconos {
+  margin-left: 80px;
+}
+.imagen-margen{
+ margin-top:20px;
+ margin-bottom:40px;
+ margin-left: 1%;
+
+}
+.titulo1, .titulo2{
+ margin-top:62px; 
+}
+.imagen-servicios{
+  background-image: url("../../imagenes/public/servicio1.jpg");
+  height: 95%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.piscina{
+  background-image: url("../../imagenes/public/piscina.jpeg");
+  height: 95%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.imagen-comedor{
+  background-image: url("../../imagenes/public/comedor0.jpg");
+  height: 95%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.buffet, .comedor{
+    margin-top: 4%;
+}
+#map {
+  height: 100%;
+}
+.div-localiza {
+	margin-top: 4%;
+	margin-bottom: 2%;
+    background: linear-gradient(#F3F3F3 , #999999);
+    width: 60%;
+    border-radius: 10px;
+}
+.fondox{
+    background-color: #F3F3F3;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 2%;
+    border: solid 1px #002166;
+        
+}

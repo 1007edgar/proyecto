@@ -1,0 +1,86 @@
+body {
+  font-size: .875rem;
+}
+.small-box-footer {
+    position: relative;
+    text-align: center;
+    padding: 3px 0;
+    color: #0d6efd;
+
+    display: block;
+    z-index: 10;
+    background: rgba(0,0,0,0.1);
+    text-decoration: none;
+    font-weight: bold;
+}
+/*
+ * Sidebar
+ */
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 100; 
+  padding: 87px 0 0; 
+  box-shadow: inset -1px 0 0 rgba(0, 0, 0, .1);
+}
+
+.sidebar .nav-link {
+  font-weight: 500;
+  color: #333;
+  span{
+      padding-right: 15px;
+  }
+}
+
+ul{
+  list-style-type: none;
+}
+
+#admin-main {
+  margin-top: 8px;
+  margin-left: 5%;
+  padding: 0px;
+}
+
+
+
+#admin-main #count .card .count {
+  display: flex;
+  justify-content: space-between;
+  color: rgba(23, 1, 27, 0.8);
+}
+#admin-main #count .card .count .icon .fa {
+  font-size: 4em;
+}
+#admin-main #count .card .count .info {
+  font-weight: bold;
+}
+#admin-main #count .card .count .info div {
+  text-align: end;
+}
+#admin-main #count .card .count .info .number {
+  font-size: 1.7em;
+}
+#admin-main #count .card .count .info .label {
+  color: #17011b;
+  font-size: 1.1em;
+}
+
+#admin-main #count .card.card-red {
+    background: rgba(255, 99, 132, 0.2);
+}
+#admin-main #count .card.card-blue {
+    background: rgba(54, 162, 235, 0.2);
+}
+#admin-main #count .card.card-green {
+    background: rgba(75, 192, 192, 0.2);
+}
+.navbar img {
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    margin-right: 10px;
+}
